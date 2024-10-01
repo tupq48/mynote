@@ -27,5 +27,20 @@ Parameterized Tests: Cho phép chạy cùng một test với nhiều bộ dữ l
 Test Suites: Phân nhóm các test case thành các test suite để dễ quản lý.
  
 ============================================= Uninteresting vs Unexpected Calls ============================================
- 
- 
+============================================= Returning References vs Returning Live Values =============================================
+============================================= Generater Report =============================================
+lcov
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -coverage -fprofile-arcs -ftest-coverage")
+find . -name "*.gcda"
+lcov --capture --directory . --output-file coverage.info
+lcov --remove coverage.info '/usr/*' --output-file coverage.info
+genhtml coverage.info --output-directory coverage_report
+xdg-open coverage_report/index.html
+
+
+
+
+
+
+
+
