@@ -1,0 +1,31 @@
+Unit test: kiểm thử đơn vị nhỏ nhất trong code như hàm, class, đảm bảo cho code hoạt động
+================================== gmock vs gtest =======================================
+1. Gmock
+Macro:
+MOCK_METHOD: thay thế cho MOCK_METHODN, tạo các phương thức giả trong lớp mock.
+EXPECT_CALL: thiết lập mong muốn cho phương thức mock method hoạt động như thế nào, gồm nhiều các func đi kèm:
++ Times(): xác định số lần được gọi theo mong muốn
++ WillOnce: expect action xảy ra khi được gọi, có thể gọi nhiều lần để xác định các expect action lần lượt
++ WillRepeatedly: tương tự willOnce, nhưng apply for all call later
+ON_CALL : được sử dụng để thiết lập hành vi mặc định cho các phương thức của mock object khi không có kỳ vọng cụ thể được thiết lập bằng EXPECT_CALL
+InSequence: đảm bảo thứ tự gọi function theo expect_call
+các tính năng chính cơ bản của mock sẽ bao gồm:
+mock class
+expectation (expect call)
+Matcher (Le, Ge, Lt, …)
+Action (return, exception, invoke, …)
+Sequence (InSequence, …)
+Thường được sử dụng khi cần kiểm tra các tương tác phức tạp giữa các đối tượng hoặc khi các đối tượng phụ thuộc cần được giả lập.
+2.      Gtest
+  Assertions: Các macro để kiểm tra các điều kiện khác nhau.
+gồm 2 loại chính:
+Non-fatal Assertions (EXPECT_*): Nếu kiểm tra thất bại, test case vẫn tiếp tục chạy.
+Fatal Assertions (ASSERT_*): Nếu kiểm tra thất bại, test case sẽ dừng lại ngay lập tức.
+Test Fixtures: Hỗ trợ setup và teardown môi trường cho các test case.
+class kế thừa ::testing::Test, override setup(), teardown() func để initialize các field/variable để dùng chung cho các TestF.
+Parameterized Tests: Cho phép chạy cùng một test với nhiều bộ dữ liệu khác nhau.
+Test Suites: Phân nhóm các test case thành các test suite để dễ quản lý.
+ 
+============================================= Uninteresting vs Unexpected Calls ============================================
+ 
+ 
