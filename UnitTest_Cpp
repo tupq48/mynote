@@ -16,7 +16,7 @@ Matcher (Le, Ge, Lt, …)
 Action (return, exception, invoke, …)
 Sequence (InSequence, …)
 Thường được sử dụng khi cần kiểm tra các tương tác phức tạp giữa các đối tượng hoặc khi các đối tượng phụ thuộc cần được giả lập.
-2.      Gtest
+2. Gtest
   Assertions: Các macro để kiểm tra các điều kiện khác nhau.
 gồm 2 loại chính:
 Non-fatal Assertions (EXPECT_*): Nếu kiểm tra thất bại, test case vẫn tiếp tục chạy.
