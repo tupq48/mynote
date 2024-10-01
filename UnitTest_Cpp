@@ -27,6 +27,17 @@ Parameterized Tests: Cho phép chạy cùng một test với nhiều bộ dữ l
 Test Suites: Phân nhóm các test case thành các test suite để dễ quản lý.
  
 ============================================= Uninteresting vs Unexpected Calls ============================================
+thường gặp trong GMock test
+nếu 1 func được call mà ko có EXPECT_CALL thì đó là Uninteresting call
+sẽ tự động bỏ qua
+Unexpected call: call func được cấu hình nhưng (EXPECT_CALL) nhưng không khớp => báo lỗi, fail test
+
+có 2 mode để dùng:
+Nices Mock vs Strict Mock
+Nices mock: các cuộc gọi không mong đợi (unexpected calls) sẽ được bỏ qua mà không gây ra lỗi trong test.
+Strict mock: mọi cuộc gọi không mong đợi đều sẽ được coi là lỗi. Nếu có bất kỳ cuộc gọi nào mà không có EXPECT_CALL đi kèm => fail test
+
+bên cạnh dó còn có 1 chế độ là Naggy Mock: Unexpected Calls sẽ được report cảnh báo nhưng sẽ ko fail test
 ============================================= Returning References vs Returning Live Values =============================================
 ============================================= Generater Report =============================================
 lcov
