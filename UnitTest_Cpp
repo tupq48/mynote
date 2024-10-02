@@ -25,7 +25,20 @@ Test Fixtures: Hỗ trợ setup và teardown môi trường cho các test case.
 class kế thừa ::testing::Test, override setup(), teardown() func để initialize các field/variable để dùng chung cho các TestF.
 Parameterized Tests: Cho phép chạy cùng một test với nhiều bộ dữ liệu khác nhau.
 Test Suites: Phân nhóm các test case thành các test suite để dễ quản lý.
- 
+ =============================================== expect vs assert ====================================================
+EXPECT: thường dùng để kiểm tra các test case dù lỗi vẫn cho phép run các test case khác, điều kiện: các test case sau ko phụ thuộc vào các test case expect
+ASSERT: đảm bảo rằng một điều kiện nhất định phải đúng trước khi tiếp tục với các kiểm tra hoặc bước tiếp theo trong test case.
+example for assert:
+TEST(FileGeneratorTest, CreatesFile) {
+  ASSERT_TRUE(fp = fopen(path, "r"))
+        << "Failed to open " << path;
+  ASSERT_EQ(10, fread(buffer, 1, 10, fp))
+        << "File " << path << " is too small";
+  buffer[10] = '\0';
+  EXPECT_STREQ("123456789", buffer)
+        << "File " << path << " is corrupted";
+}
+ngoài case trên thì thường sử dụng expect khi dev để thấy được nhiều failed case, easy to fix.
 ============================================= Uninteresting vs Unexpected Calls ============================================
 thường gặp trong GMock test
 nếu 1 func được call mà ko có EXPECT_CALL thì đó là Uninteresting call
@@ -48,7 +61,9 @@ lcov --remove coverage.info '/usr/*' --output-file coverage.info
 genhtml coverage.info --output-directory coverage_report
 xdg-open coverage_report/index.html
 
+============================================= Matcher =============================================
 
+stub
 
 
 
