@@ -61,9 +61,22 @@ lcov --capture --directory . --output-file coverage.info
 lcov --remove coverage.info '/usr/*' --output-file coverage.info
 genhtml coverage.info --output-directory coverage_report
 xdg-open coverage_report/index.html
+============================================= Expect_call order (sequence) =============================================
+3 way:
+1. EXPECT_CALL(..).InSequence(s1); -> set sequence for call expected, thứ tự order các EXPECT_CALL (gọi tắt E_C) sẽ là thứ tự các E_C apply .InSequence(s1) cùng param
+2. E_C(...).After(a); -> tương tự 1, nhưng ta cần lưu các expect_call trước lại thông qua ::testing::Expectation
+Expectation a = E_C(...);
+E_C(...).After(a);
+3. InSequence class -> tạo ra 1 đối tượng của InSequence, tất các các E_C(...) cùng scope với đối tượng đó sẽ phải thực hiện theo order từ trên xuống.
 
-============================================= Matcher =============================================
+============================================= Action =============================================
+DoDefault
+Return
+SideEffect
+InvokeAFunction
+Custom
 
+======
 stub
 
 
