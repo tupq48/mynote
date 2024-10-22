@@ -1,2 +1,7 @@
 
 added in updatesecurityutils_mock cpp
+mkdir("./security",  S_IRWXU | S_IRUSR | S_IXUSR | S_IRGRP | S_IXGRP );
+int fd = open("./security/DynHMI_sample.SignedData.xml", O_CREAT | O_WRONLY, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
+
+remove("./security/DynHMI_sample.SignedData.xml");   
+rmdir("./security");   
