@@ -1,2 +1,4 @@
 ignore rule in misra local? -> find the way
 check misra between 2 commit
+need ignore rule: 
+0-1-6
