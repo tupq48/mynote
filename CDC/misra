@@ -5,4 +5,9 @@
 5-0-4: fix với các case rõ ràng, còn lại ignore
 6-6-5: ignore
 14-5-1: ignore - liên quan đến các log function
+14-8-2: ignore - liên quan đến các log function
+16-2-1: ignore
+16-2-2: ignore
+18-4-1: unknow -> cấm dùng dynamic memory như new, malloc, free 
+19-3-1: could ignore -> khuyến khích ko dùng errno (nếu dùng thì phải check input với output của errno)
 06/11: need to check all misra issue with little case
