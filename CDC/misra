@@ -11,4 +11,5 @@
 16-2-2: ignore
 18-4-1: unknow -> cấm dùng dynamic memory như new, malloc, free 
 19-3-1: could ignore -> khuyến khích ko dùng errno (nếu dùng thì phải check input với output của errno)
+27-0-1: không sử dụng thư viện <cstdio>
 06/11: need to check all misra issue with little case
