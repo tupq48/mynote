@@ -4,4 +4,5 @@
 3-4-1: ignore các case khác theo template sẵn hay không
 5-0-4: fix với các case rõ ràng, còn lại ignore
 6-6-5: ignore
+14-5-1: ignore - liên quan đến các log function
 06/11: need to check all misra issue with little case
