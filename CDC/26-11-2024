@@ -1,3 +1,4 @@
-getting money for happy friday
+getting money for happy friday (done)
 check misra tool in vbee -> run all, run each file, diffrent, run more time
+reason: khi build run lại, nếu file không được chỉnh sửa có trong danh sách include_parttern -> có thể bị loại ko detect misra lại
 thông báo lịch metting
