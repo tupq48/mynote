@@ -5,9 +5,16 @@ hai.ly:       1747 misra total
   */qnx/system/mgrupdate/*          1746 -> only in here 
 nhi3.nguyen:  3039 misra total
   */qnx/system/subfwinstaller/*     2328 -> find next      
+  */qnx/system/*                    2329 ?
+  */la/*                             752 ? over total. could have qnx in la
+  *la/android/vendor/*               113
+  */vendor_android/*                 714 -> dont know if we fix or not
+tu2.pham:     2168 misra total
+  */8255p/la/android/vendor/alliance/services/usb_update_manager/*      1602
+  */8255p/la/android/vendor/alliance/services/*                         2159 -> find what is that come from
+  */8255p/la/android/vendor/alliance/services/update_manager/*           579 -> 2159 - 579 = 1580 => there still something else
+  but this is oke, we know almost of that
 
+2. need to check again about include common/common_types.h reason -> later check
+3. fix hai.ly misra in mgrupdate (already build success) -> easy control -> fix each rule and build -> not merge so much
 
-
-  
-2. need to check again about include common/common_types.h reason
-3. 
