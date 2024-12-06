@@ -1,5 +1,13 @@
 todo:
 1. check in CIM system, where all the misra in
-list here
+list here:
+hai.ly:       1747 misra total
+  */qnx/system/mgrupdate/*          1746 -> only in here 
+nhi3.nguyen:  3039 misra total
+  */qnx/system/subfwinstaller/*     2328 -> find next      
+
+
+
+  
 2. need to check again about include common/common_types.h reason
 3. 
