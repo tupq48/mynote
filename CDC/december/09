@@ -11,6 +11,11 @@ setting up anything
 go cim and filter by hai.ly, get static filter.
 run build, must note that when we run build, it will add space, and after build, it will deleted. but if we stop the build script manually, we could run ...sh file to delete space.
 
+ưu điểm và nhược điểm:
+dễ cover code hơn, có thể check lại trước khi push và merge code lên server
+
+Không thể export output like VIM 100%. VIM scan trên tất cả source code. Local cannot. VIM contain ignore for each misra/static, local cannot know what has been ignore -> still show the error -> normally in local will have more misra/static than VIM server report.
+
 
 
 
