@@ -23,5 +23,7 @@ lịch presentation là 2h -> 4h thứ 4.
 2. 
 
 
-fix option name to match output folder
-create option for all static issue
+fix option name to match output folder (done)
+create option for all static issue (done)
+create guide for option scan static issue only
+add vbee open port guide
