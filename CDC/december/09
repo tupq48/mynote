@@ -1,7 +1,7 @@
 1) prepare presentation for local misra tool
     test full flow again (done)
     check about nay update in cdc-coverity repository and push (done)
-    demo with static fix
+    demo with static fix (not yet - move to mai)
     some tip to filter, working in CIM
     make slide, better if have
     send email to cdc group or make a message in team (just have a new time to present, move to wednesday, so could be tomorrow)
@@ -33,4 +33,12 @@ add vbee open port guide
 sau khi sửa các thứ trên, buổi chiều làm lại main flow, dùng presentation từng picture từng step (choosen this one, đã làm khá tạm)
 or record video lại.
 
-16h10 đi lấy ảnh card
+16h10 đi lấy ảnh card (done)
+
+=====================================
+
+demo with static fix (not yet - move to mai)
+some tip to filter, working in CIM (có làm nhưng chưa oke lắm)
+send email or nhắn tin báo thứ 4 presentation
+update note about stop build, làm thừa space, cần sửa script để delte all và làm note về phần này.
+
