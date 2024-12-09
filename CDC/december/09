@@ -1,9 +1,18 @@
-1. prepare presentation for local misra tool
+1) prepare presentation for local misra tool
     test full flow again
-    check about nay update in cdc-coverity repository and push
+    check about nay update in cdc-coverity repository and push (done)
     demo with static fix
     some tip to filter, working in CIM
     make slide, better if have
     send email to cdc group or make a message in team
+2) flow prensentation
+make sure check back commit and clear any thing we modified
+setting up anything
+go cim and filter by hai.ly, get static filter.
+run build, must note that when we run build, it will add space, and after build, it will deleted. but if we stop the build script manually, we could run ...sh file to delete space.
 
+
+
+
+lịch presentation là 2h -> 4h thứ 3.
 2. 
