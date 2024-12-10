@@ -5,10 +5,10 @@ send email or nhắn tin báo thứ 4 presentation
 update note about stop build, làm thừa space, cần sửa script để delte all và làm note về phần này.
 
 ======== today ==========================
-xem training static/dynamic lib của anh Thịnh vs anh Hiếu (about 1 hours)
-check xem đã update misra chưa, why misra not down
-update thêm presentation ppt file, cần thêm gì sửa gì ko
-check flow again with static tool
+xem training static/dynamic lib của anh Thịnh vs anh Hiếu (about 1 hours) (chỉ mới xem sơ qua được,chưa xem được hết)
+check xem đã update misra chưa, why misra not down (chưa update -> still wait)
+update thêm presentation ppt file, cần thêm gì sửa gì ko (chưa check, có vẻ sẽ ko thêm)
+check flow again with static tool (khá ổn)
 fix misra in nissan AUM
 
 some tip to work in CIM:
@@ -25,3 +25,7 @@ demo with static check, using diff
 think xem nên làm happy friday sớm hay không, hay để bữa sau làm bữa to
 
 fix rule 5-0-4 nissan AUM (làm lâu quá) (391 -> 241) (done)
+
+
+================= tomorrow ==================
+chuẩn bị sẵn các output folder trước để đỡ rerun
