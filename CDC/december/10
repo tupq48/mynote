@@ -1,5 +1,5 @@
 ======== from yesterday ======================
-demo with static fix (not yet - move to mai)
+
 some tip to filter, working in CIM (có làm nhưng chưa oke lắm) (đã thử tự demo, ko có slide for that)
 send email or nhắn tin báo thứ 4 presentation
 update note about stop build, làm thừa space, cần sửa script để delte all và làm note về phần này.
@@ -9,9 +9,12 @@ xem training static/dynamic lib của anh Thịnh vs anh Hiếu (about 1 hours)
 check xem đã update misra chưa, why misra not down
 update thêm presentation ppt file, cần thêm gì sửa gì ko
 check flow again with static tool
+fix misra in nissan AUM
 
 some tip to work in CIM:
     Misra và static được tách ra làm 2, filter theo cái nào thì chọn cái đó
     Menu hay dùng nhất là owner, vào đây có thể click nhanh để filter all static/misra của mình
     group: group mọi thứ
       make a copy -> mọi thứ nằm ở issue by snapshot
+
+demo with static fix (not yet - move to mai)
