@@ -1,7 +1,7 @@
 ======== from yesterday ======================
 
 some tip to filter, working in CIM (có làm nhưng chưa oke lắm) (đã thử tự demo, ko có slide for that)
-send email or nhắn tin báo thứ 4 presentation
+send email or nhắn tin báo thứ 4 presentation (done, but need to talk in room)
 update note about stop build, làm thừa space, cần sửa script để delte all và làm note về phần này. (không thể sửa được)
 
 ======== today ==========================
@@ -9,7 +9,7 @@ xem training static/dynamic lib của anh Thịnh vs anh Hiếu (about 1 hours) 
 check xem đã update misra chưa, why misra not down (chưa update -> still wait)
 update thêm presentation ppt file, cần thêm gì sửa gì ko (chưa check, có vẻ sẽ ko thêm)
 check flow again with static tool (khá ổn)
-fix misra in nissan AUM
+fix misra in nissan AUM (still working, to day work with 5-0-4)
 
 some tip to work in CIM:
     Misra và static được tách ra làm 2, filter theo cái nào thì chọn cái đó
