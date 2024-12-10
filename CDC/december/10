@@ -9,3 +9,8 @@ xem training static/dynamic lib của anh Thịnh vs anh Hiếu (about 1 hours)
 check xem đã update misra chưa, why misra not down
 update thêm presentation ppt file, cần thêm gì sửa gì ko
 
+some tip to work in CIM:
+    Misra và static được tách ra làm 2, filter theo cái nào thì chọn cái đó
+    Menu hay dùng nhất là owner, vào đây có thể click nhanh để filter all static/misra của mình
+    group: group mọi thứ
+      make a copy -> mọi thứ nằm ở issue by snapshot
