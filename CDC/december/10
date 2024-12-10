@@ -18,3 +18,8 @@ some tip to work in CIM:
       make a copy -> mọi thứ nằm ở issue by snapshot
 
 demo with static fix (not yet - move to mai)
+
+demo with static check, using diff
+-> see the different in CDiagLogHandler.cpp -> line 92
+
+think xem nên làm happy friday sớm hay không, hay để bữa sau làm bữa to
