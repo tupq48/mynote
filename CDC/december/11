@@ -5,6 +5,14 @@ think xem nên làm happy friday sớm hay không, hay để bữa sau làm bữ
 
 ================== today todo list ==============================
 (1) (NOT DONE) chuẩn bị sẵn các output folder trước để đỡ rerun
+  dùng nissan AUM repository demo    
+  case 1:
+    quét base, fix static, quét again -> show different.
+  case 2:
+    quét base, fix misra, sinh ra static -> quét again -> check được static -> good.
+  case 3: 
+    quét theo mudule, hướng dẫn filter theo CIM, so sánh 2 bên, good
+
 (2) (NOT DONE) xem training static/dynamic lib của anh Thịnh vs anh Hiếu 
 (3) (NOT DONE) think xem nên làm happy friday sớm hay không, hay để bữa sau làm bữa to
 (4) (NOT DONE) 
